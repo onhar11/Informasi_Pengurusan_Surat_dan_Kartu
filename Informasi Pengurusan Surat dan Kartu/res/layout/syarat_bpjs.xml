@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fcfcf0"
+    tools:context="com.KAMIBEREMPAT.pengurusansuratdankartu.SyaratBPJS" >
+     
+     <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+        
+        
+        <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_weight="0.13"
+              android:gravity="center"
+              android:paddingTop="25dp"
+              android:text="Syarat Pembuatan Kartu BPJS Kesehatan"
+              android:textAlignment="center"
+              android:textAppearance="?android:attr/textAppearanceLarge"
+              android:textStyle="bold" />
+        
+        
+            
+             <TextView
+          android:id="@+id/textView2"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:gravity="left|right|center_vertical"
+          android:paddingLeft="12dp"
+          android:paddingTop="25dp"
+          android:scrollHorizontally="false"
+          android:text=          
+"Untuk membuat kartu BPJS Kesehatan harus melengkapi syarat-syarat sebagai berikut:\n\n
+1.Foto copy kartu KTP\n\n
+2.Foto copy kartu keluarga\n\n
+3.Foto Berwarna 3×4\n\n
+Iuran yang dibayarkan ke bank disesuaikan dengan  jenis kepesertaan, yang diantaranya adalah: \n\n
+a).Anggota yang terdaftar sebagai penerima bantuan iuran (PBI), (adalah anggota pekerja penerima upah dan bukan penerima upah, dan ada pula bukan pekerja), jumlahnya sudah ditetapkan oleh pemerintah sebanyak 86,4juta orang dengan iuran Rp19.225 per orang dalam satu bulan.\n\n
+b).Peserta penerima upah seperti pekerja perusahaan swasta,  membayar jumlah iuran sebesar 4,5 % dari upah satu bulan dan ditanggung oleh pemberi kerja 4 persen dan 5% ditanggung pekerja. Sedangkan PNS dan pensiunan PNS membayar iuran sebesar 5  %, sebanyak 3 % ditanggung pemerintah dan 2 % ditanggung pekerja.\n\n
+c).Untuk peserta bukan penerima upah seperti pekerja sektor informal besaran iuran yang harus dibayarkan, sesuai dengan jenis kelas perawatan yang diambil. Untuk ruang perawatan kelas III Rp 25.500, kelas II Rp 42.500 dan kelas I Rp59.500.\n
+"
+          android:textColor="#000000"
+          android:textSize="17sp"
+          android:textStyle="normal"
+          android:typeface="serif"
+          android:paddingBottom="15dp" />
+          
+             </LinearLayout>
+        
+    
+</ScrollView>
+
+
+
+</RelativeLayout>
+

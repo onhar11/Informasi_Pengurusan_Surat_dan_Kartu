@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fcfcf0"
+    tools:context="com.KAMIBEREMPAT.pengurusansuratdankartu.SyaratSuratTanah" >
+     
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+        
+        
+        <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_weight="0.13"
+              android:gravity="center"
+              android:paddingTop="25dp"
+              android:text="Syarat Sertifikasi Tanah"
+              android:textAlignment="center"
+              android:textAppearance="?android:attr/textAppearanceLarge"
+              android:textStyle="bold" />
+        
+        
+            
+             <TextView
+          android:id="@+id/textView2"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:gravity="left|right|center_vertical"
+          android:paddingLeft="12dp"
+          android:paddingTop="25dp"
+          android:scrollHorizontally="false"
+          android:text=          
+"Untuk pembuatan Sertifikasi Tanah harus Melengkapi syarat-syarat berikut :\n
+
+1.	Formulir permohonan yang sudah diisi dan ditandatangani pemohon atau kuasanya di atas materai cukup\n\n
+2.	Surat Kuasa apabila dikuasakan\n\n
+3.	Fotocopy identitas (KTP, KK) pemohon dan kuasa apabila dikuasakan, yang telah dicocokkan dengan aslinya oleh petugas loket\n\n
+4.	Asli Bukti perolehan tanah/Alas Hak\n\n
+5.	Asli Surat-surat bukti pelepasan hak dan pelunasan tanah dan rumah (Rumah Gol III) atau rumah yang dibeli dari pemerintah\n\n
+6.	Foto copy SPPT PBB Tahun berjalan yang telah dicocokkan dengan aslinya oleh petugas loket, penyerahan bukti SSB (BPHTB) dan bukti bayar uang pemasukan (pada saat pendaftaran hak)\n\n
+7.	Melampirkan bukti SSP/PPh\n
+
+"
+          android:textColor="#000000"
+          android:textSize="17sp"
+          android:textStyle="normal"
+          android:typeface="serif"
+          android:paddingBottom="15dp" />
+          
+             </LinearLayout>
+        
+    
+</ScrollView>
+
+
+</RelativeLayout>
+

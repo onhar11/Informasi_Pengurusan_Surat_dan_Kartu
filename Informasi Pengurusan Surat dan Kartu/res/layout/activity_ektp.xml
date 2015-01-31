@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:orientation="vertical"
+     android:background="#fcfcf0"
+    
+    tools:context="com.KAMIBEREMPAT.pengurusanKartu.Ektp" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.12"
+                android:gravity="center"
+                android:paddingTop="25dp"
+                android:text="Kartu Tanda Penduduk Elektronik"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textStyle="bold" />
+
+           <TextView
+          android:id="@+id/textView2"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:gravity="left|right|center_vertical"
+          android:paddingLeft="12dp"
+          android:paddingTop="14dp"
+          android:scrollHorizontally="false"
+          android:text="Kartu Tanda Penduduk Elektronik (E-KTP) adalah identitas resmi Penduduk sebagai bukti diri yang diterbitkan oleh Instansi Pelaksana yang berlaku di seluruh wilayah Negara Kesatuan Republik Indonesia. Kartu ini wajib dimiliki bagi Warga Negara Indonesia (WNI) dan Warga Negara Asing (WNA) yang memiliki Izin Tinggal Tetap (ITAP) yang sudah berumur 17 tahun atau sudah pernah kawin atau telah kawin. Anak dari orang tua WNA yang memiliki ITAP dan sudah berumur 17 tahun juga wajib memilki KTP. KTP bagi WNI berlaku selama lima tahun dan tanggal berakhirnya disesuaikan dengan tanggal dan bulan kelahiran yang bersangkutan. KTP bagi WNA berlaku sesuai dengan masa Izin Tinggal Tetap. Khusus warga yang telah berusia 60 tahun dan ke atas, mendapat KTP seumur hidup yang tidak perlu diperpanjang setiap lima tahun sekali.
+
+          "
+          android:textColor="#000000"
+          android:textSize="17sp"
+          android:textStyle="normal"
+          android:typeface="serif" />
+            
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:paddingLeft="12dp"
+                android:paddingTop="14dp"
+                android:text="Tampilan E-KTP"
+                android:textColor="#000000"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxWidth="250dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:paddingTop="12dp"
+                android:paddingBottom="15dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ktpimage" />
+
+        </LinearLayout>
+        
+    </ScrollView>
+
+</RelativeLayout>
+

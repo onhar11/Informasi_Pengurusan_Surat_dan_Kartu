@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.KAMIBEREMPAT.pengurusansuratdankartu"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/action_bar"
+        android:theme="@style/CustomActionBarTheme" >
+        <activity
+            android:name=".Home"
+            android:label="@string/action_bar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            
+        </activity>
+        <activity
+            android:name=".PengurusanSurat"
+            android:label="@string/title_pengurusan_surat" >
+            <meta-data
+            android:name="android.home"
+            android:value=".Home" />
+        </activity>
+        <activity
+            android:name=".TentangActivity"
+            android:label="@string/title_activity_tentang" >
+  
+        </activity>
+        <activity
+            android:name=".SuratNikahActivity"
+            android:label="@string/title_activity_surat_nikah" >
+            <meta-data
+            android:name="android.PARENT_ACTIVITY"
+            android:value=".Home" />
+        </activity>
+        <activity
+            android:name="com.KAMIBEREMPAT.pengurusanSurat.SuratSKCK"
+            android:label="@string/title_activity_surat_skck" >
+            <meta-data
+            android:name="android.PARENT_ACTIVITY"
+            android:value=".Home" />
+        </activity>
+        <activity
+            android:name="com.KAMIBEREMPAT.pengurusanSurat.SuratNikah"
+            android:label="@string/title_activity_surat_nikah" >
+        </activity>
+        <activity
+            android:name="com.KAMIBEREMPAT.pengurusanSurat.SuratTanah"
+            android:label="@string/title_activity_surat_tanah" >
+        </activity>
+        <activity
+            android:name="com.KAMIBEREMPAT.pengurusanSurat.SuratWarisan"
+            android:label="@string/title_activity_surat_warisan" >
+        </activity>
+        <activity
+            android:name="com.KAMIBEREMPAT.pengurusanSurat.SKBN"
+            android:label="@string/title_activity_skbn" >
+        </activity>
+        <activity
+            android:name=".PengurusanKartu"
+            android:label="@string/title_activity_pengurusan_kartu" >
+        </activity>
+        <activity
+            android:name="com.KAMIBEREMPAT.pengurusanKartu.Sim"
+            android:label="@string/title_activity_sim" >
+        </activity>
+        <activity
+            android:name="com.KAMIBEREMPAT.pengurusanKartu.Bpjs"
+            android:label="@string/title_activity_bpjs" >
+        </activity>
+        <activity
+            android:name="com.KAMIBEREMPAT.pengurusanKartu.Ektp"
+            android:label="@string/title_activity_Ektp" >
+        </activity>
+        <activity
+            android:name="com.KAMIBEREMPAT.pengurusanKartu.KartuKuning"
+            android:label="@string/title_activity_kartu_kuning" >
+        </activity>
+        <activity
+            android:name="com.KAMIBEREMPAT.pengurusanKartu.KartuKeluarga"
+            android:label="@string/title_activity_kartu_keluarga" >
+        </activity>
+        <activity
+            android:name=".TahapanSuratNikah"
+            android:label="@string/title_activity_tahapan_surat_nikah" >
+        </activity>
+        <activity
+            android:name=".SyaratSuratNikah"
+            android:label="@string/title_activity_syarat_surat_nikah" >
+        </activity>
+        <activity
+            android:name=".MyAdapter"
+            android:label="@string/title_activity_my_adapter" >
+        </activity>
+        <activity
+            android:name=".SuratAdapter"
+            android:label="@string/title_activity_surat_adapter" >
+        </activity>
+        <activity
+            android:name=".SyaratBPJS"
+            android:label="@string/title_activity_syarat_bpjs" >
+        </activity>
+        <activity
+            android:name=".SyaratKartuKeluarga"
+            android:label="@string/title_activity_syarat_kartu_keluarga" >
+        </activity>
+        <activity
+            android:name=".SyaratKartuKuning"
+            android:label="@string/title_activity_syarat_kartu_kuning" >
+        </activity>
+        <activity
+            android:name=".SyaratSIM"
+            android:label="@string/title_activity_syarat_sim" >
+        </activity>
+        <activity
+            android:name=".SyaratSuratTanah"
+            android:label="@string/title_activity_syarat_surat_tanah" >
+        </activity>
+        <activity
+            android:name=".TahapBpjs"
+            android:label="@string/title_activity_tahap_bpjs" >
+        </activity>
+        <activity
+            android:name=".SyaratEktp"
+            android:label="@string/title_activity_syarat_ektp" >
+        </activity>
+        <activity
+            android:name=".TahapEktp"
+            android:label="@string/title_activity_tahap_ektp" >
+        </activity>
+        <activity
+            android:name=".TahapKartuKeluarga"
+            android:label="@string/title_activity_tahap_kartu_keluarga" >
+        </activity>
+        <activity
+            android:name=".TahapSim"
+            android:label="@string/title_activity_tahap_sim" >
+        </activity>
+        <activity
+            android:name=".SyaratSkbn"
+            android:label="@string/title_activity_syarat_skbn" >
+        </activity>
+        <activity
+            android:name=".TahapSKBN"
+            android:label="@string/title_activity_tahap_skbn" >
+        </activity>
+        <activity
+            android:name=".SyaratSKCK"
+            android:label="@string/title_activity_syarat_skck" >
+        </activity>
+        <activity
+            android:name=".TahapSKCK"
+            android:label="@string/title_activity_tahap_skck" >
+        </activity>
+        <activity
+            android:name=".SyaratWarisan"
+            android:label="@string/title_activity_syarat_warisan" >
+        </activity>
+        <activity
+            android:name=".TahapWarisan"
+            android:label="@string/title_activity_tahap_warisan" >
+        </activity>
+        <activity
+            android:name=".TahapTanah"
+            android:label="@string/title_activity_tahap_tanah" >
+        </activity>
+        <activity
+            android:name=".TahapKartuKuning"
+            android:label="@string/title_activity_tahap_kartu_kuning" >
+        </activity>
+    </application>
+
+</manifest>

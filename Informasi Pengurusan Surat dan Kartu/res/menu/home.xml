@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.KAMIBEREMPAT.pengurusansuratdankartu.Home" >
+	
+     <item
+        
+        android:id="@+id/action_Tentang"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+   		android:title="@string/action_Tentang"/>
+  
+  
+    <item
+        android:id="@+id/action_Keluar"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_Keluar"/>
+
+</menu>

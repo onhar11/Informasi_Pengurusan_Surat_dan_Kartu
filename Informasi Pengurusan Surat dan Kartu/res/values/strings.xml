@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_tahapbpjs">Tahapan Pembuatan BPJS</string>
+    <string name="action_syaratbpjs">Syarat Pembuatan BPJS</string>
+    <string name="action_tahapektp">Tahapan Pembuatan E-KTP</string>
+    <string name="action_syaratektp">Syarat Pembuatan E-KTP</string>
+    <string name="action_tahapsim">Tahapan Pembuatan SIM</string>
+    <string name="action_syaratsim">Syarat Pembuatan SIM</string>
+    <string name="action_tahapkuning">Tahapan Pembuatan Kartu Kuning</string>
+    <string name="action_syaratkuning">Syarat Pembuatan Kartu Kuning</string>
+    <string name="action_tahapkeluarga">Tahapan Pembuatan Kartu Keluarga</string>
+    <string name="action_syaratkeluarga">Syarat Pembuatan Kartu Keluarga</string>
+    <string name="action_tahap">Tahapan Pembuatan Surat Nikah</string>
+    <string name="action_syarat">Syarat Pembuatan Surat Nikah</string>
+    <string name="action_tahaptanah">Tahapan Pembuatan Surat Tanah</string>
+    <string name="action_syarattanah">Syarat Pembuatan Surat Tanah</string>
+    <string name="action_tahapskck">Tahapan Pembuatan SKCK</string>
+    <string name="action_syaratskck">Syarat Pembuatan SKCK</string>
+    <string name="action_tahapskbn">Tahapan Pembuatan SKBN</string>
+    <string name="action_syaratskbn">Syarat Pembuatan SKBN</string>
+    <string name="action_tahapwarisan">Tahapan Pembuatan Warisan</string>
+    <string name="action_syaratwarisan">Syarat Pembuatan Warisan</string>
+    <string name="action_bar">Informasi Pengurusan Surat dan Kartu</string>
+    <string name="title_pengurusan_surat">Pengurusan Surat</string>
+    <string name="action_Keluar">Keluar</string>
+    <string name="action_Tentang">Tentang</string>
+    <string name="title_activity_tentang">Tentang</string>
+    <string name="title_activity_surat_nikah">Surat Nikah</string>
+    <string name="title_activity_surat_skck">Surat Keterangan Catatan Kepolisian</string>
+    <string name="title_activity_surat_tanah">Surat Tanah</string>
+    <string name="title_activity_surat_warisan">Surat Warisan</string>
+    <string name="title_activity_skbn">Surat Keterangan Bebas Narkoba</string>
+    <string name="title_activity_sim">Surat Izin Mengendarai</string>
+    <string name="title_activity_Ektp">Kartu Tanda Penduduk Elektronik</string>
+    <string name="title_activity_bpjs">Badan Penyelenggara Jaminan Sosial</string>
+    <string name="title_activity_kartu_kuning">Kartu Kuning</string>
+    <string name="title_activity_kartu_keluarga">Kartu Keluarga</string>
+    <string name="title_activity_pengurusan_kartu">Pengurusan Kartu</string>
+    <string name="title_activity_tahapan_surat_nikah">Tahapan Surat Nikah</string>
+    <string name="title_activity_syarat_surat_nikah">Syarat Surat Nikah</string>
+    <string name="title_activity_my_adapter">MyAdapter</string>
+    <string name="title_activity_surat_adapter">target</string>
+    <string name="title_activity_syarat_bpjs">Syarat Pembuatan BPJS</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_syarat_kartu_keluarga">Syarat Pembuatan Kartu Keluarga</string>
+    <string name="title_activity_syarat_kartu_kuning">Syarat Pembuatan Kartu Kuning</string>
+    <string name="title_activity_syarat_sim">Syarat SIM</string>
+    <string name="title_activity_syarat_surat_tanah">Syarat Pembuatan Surat Tanah</string>
+    <string name="title_activity_tahap_bpjs">Tahapan Pembuatan BPJS</string>
+    <string name="title_activity_syarat_ektp">Syarat Pembuatan E-KTP</string>
+    <string name="title_activity_tahap_ektp">Tahapan Pembuatan E-KTP</string>
+    <string name="title_activity_tahap_kartu_keluarga">Tahapan Pembuatan Kartu Keluarga</string>
+    <string name="title_activity_tahap_sim">Tahapan Pembuatan SIM</string>
+    <string name="title_activity_syarat_skbn">Syarat Pembuatan SKBN</string>
+    <string name="title_activity_tahap_skbn">Tahapan Pembuatan SKBN</string>
+    <string name="title_activity_syarat_skck">Syarat Pembuatan SKCK</string>
+    <string name="title_activity_tahap_skck">Tahapan Pembuatan SKCK</string>
+    <string name="title_activity_syarat_warisan">Syarat Pembuatan Surat Tanda Hak Waris</string>
+    <string name="title_activity_tahap_warisan">Tahapan Pembuatan Surat Tanda Hak Waris </string>
+    <string name="title_activity_tahap_tanah">Tahapan Pembuatan Sertifikasi Tanah</string>
+    <string name="title_activity_tahap_kartu_kuning">Tahapan Pembuatan Kartu Kuning</string>
+
+</resources>

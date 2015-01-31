@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fcfcf0"
+    tools:context="com.KAMIBEREMPAT.pengurusansuratdankartu.TahapBpjs" >
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+        
+        
+        <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_weight="0.13"
+              android:gravity="center"
+              android:paddingTop="25dp"
+              android:text="Tahapan Pembuatan BPJS 
+              kesehatan"
+              android:textAlignment="center"
+              android:textAppearance="?android:attr/textAppearanceLarge"
+              android:textStyle="bold" />
+        
+        
+            
+             <TextView
+          android:id="@+id/textView2"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:gravity="left|right|center_vertical"
+          android:paddingLeft="12dp"
+          android:paddingTop="25dp"
+          android:scrollHorizontally="false"
+          android:text=          
+"1.Pemohon mengisi identitas calon peserta BPJS\n\n
+2.Pemohon mentransfer biaya perawatan BPJS dan biaya jasa AVIAJAS\n\n
+3.Pemohon dapat konfirmasi dari kami bahwa kartu BPJS telah selesai\n\n
+4.Pemohon menerima kartu BPJS dalam bentuk softcopy\n\n
+5.Pemohon menerima kiriman fisik Kartu BPJS\n\n
+
+"
+          android:textColor="#000000"
+          android:textSize="17sp"
+          android:textStyle="normal"
+          android:typeface="serif" 
+          android:paddingBottom="15dp"/>
+          
+             </LinearLayout>
+        
+    </ScrollView>
+
+</RelativeLayout>

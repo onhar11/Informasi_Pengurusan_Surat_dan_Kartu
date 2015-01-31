@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     android:background="#fcfcf0" 
+    tools:context="com.KAMIBEREMPAT.pengurusanKartu.Sim" >
+
+   <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.13"
+                android:paddingLeft="50dp"
+                android:paddingTop="15dp"
+                android:text="Surat Izin Mengemudi"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textStyle="bold" />
+
+            <TextView
+          android:id="@+id/textView2"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:gravity="left|right|center_vertical"
+          android:paddingLeft="12dp"
+          android:paddingTop="14dp"
+          android:scrollHorizontally="false"
+          android:text="Surat Izin Mengemudi (SIM) adalah bukti registrasi dan identifikasi yang diberikan oleh Polri kepada seseorang yang telah memenuhi persyaratan administrasi, sehat jasmani dan rohani, memahami peraturan lalu lintas dan terampil mengemudikan kendaraan bermotor.Setiap orang yang mengemudikan Kendaraan Bermotor di Jalan wajib memiliki Surat Izin Mengemudi sesuai dengan jenis Kendaraan Bermotor yang dikemudikan (Pasal 77 ayat (1) UU No.22 Tahun 2009)."
+          android:textColor="#000000"
+          android:textSize="17sp"
+          android:textStyle="normal"
+          android:typeface="serif" />
+            
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:paddingLeft="12dp"
+                android:paddingTop="14dp"
+                android:text="Tampilan SIM"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxWidth="250dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:paddingTop="12dp"
+                android:scaleType="fitXY"
+                android:paddingBottom="15dp"
+                android:src="@drawable/asim" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

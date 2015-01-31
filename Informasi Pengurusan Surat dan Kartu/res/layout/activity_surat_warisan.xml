@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fcfcf0"
+    tools:context="com.KAMIBEREMPAT.pengurusanSurat.SuratWarisan" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_weight="0.13"
+              android:gravity="center"
+              android:paddingTop="25dp"
+              android:text="Surat Keterangan Hak Waris"
+              android:textAlignment="center"
+              android:textAppearance="?android:attr/textAppearanceLarge"
+              android:textStyle="bold" />
+            
+             <TextView
+          android:id="@+id/textView2"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:gravity="left|right|center_vertical"
+          android:paddingLeft="12dp"
+          android:paddingTop="14dp"
+          android:scrollHorizontally="false"
+          android:text="Surat Keterangan Hak Waris adalah suatu akta otentik yang diterbitkan oleh Pejabat Balai Harta Peninggalan yang menerangkan tentang keadaan yang meninggal dunia, ahli waris, harta peninggalan, dan hak bagian masing-masing ahli waris. Surat Keterangan Hak Waris (SKHW) merupakan bukti yang lengkap tentang tentang keadaan yang meninggal dunia, ahli waris, harta peninggalan, dan hak bagian masing-masing ahli waris, serta menjadi pemberitahuan pada pihak ketiga terutama Kantor Badan Pertanahan dalam rangka pengukuran tanah untuk pendaftaran peralihan hak karena warisan.
+
+Berdasarkan pasal 20 ayat (1) Peraturan Pemerintah Nomor 10 tahun 1961 tentang Pendaftaran Tanah, bahwa jika orang mempunyai hak atas tanah meninggal dunia, maka yang menerima tanah itu sebagai warisan wajib meminta pendaftaran peralihan tanah tersebut dalam waktu 6 (enam) bulan sejak tanggal meninggalnya orang itu. Selanjutnya dalam pasal 23 ayat (1), untuk mendaftarkan peralihan hak karena warisan mengenai tanah yang telah dibukukan, maka kepada Kepala Kantor Pendaftaran tanah harus diserahkan Surat Keterangan Mewaris dari instansi yang berwenang.
+
+Balai Harta Peninggalan Jakarta, dalam kedudukannya berdasarkan ketentuan pada ayat 1 pasal 14 dari Instruksi Voor de Gouvernements Landmeters dalam Stbl. 1916 No. 517, jo Surat Menteri Dalam Negeri Cq. Kepala Direktorat Pendaftaran Tanah Direktorat Jenderal Agraria Departemen Dalam Negeri tanggal 20 Desember 1969 Nomor: DPT/12/63/12/69 jo. Peraturan Menteri Negara Agraria/Kepala Badan Pertanahan Nasional No. 3 Tahun 1997 tentang Ketentuan Pelaksanaan Peraturan Pemerintah No. 24 Tahun 1997 tentang Pendaftaran Tanah merupakan instansi yang berwenang menerbitkan Surat Keterangan Hak Mewaris Untuk Golongan Timur Asing.
+          "
+          android:textColor="#000000"
+          android:textSize="17sp"
+          android:textStyle="normal"
+          android:typeface="serif" />
+            
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:paddingLeft="12dp"
+                android:paddingTop="14dp"
+                android:text="Tampilan Surat Keterangan Hak Waris"
+                android:textColor="#000000"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxWidth="250dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:paddingTop="12dp"
+                android:scaleType="fitXY"
+                android:paddingBottom="15dp"
+                android:src="@drawable/wasiat" />
+
+
+        </LinearLayout>
+        
+    </ScrollView>
+
+</RelativeLayout>

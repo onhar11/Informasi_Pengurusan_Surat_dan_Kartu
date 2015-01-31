@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fcfcf0"
+    tools:context="com.KAMIBEREMPAT.pengurusansuratdankartu.SyaratEktp" >
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+        
+        
+        <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_weight="0.13"
+              android:gravity="center"
+              android:paddingTop="25dp"
+              android:text="Syarat Pembuatan Kartu Tanda  Penduduk Elektronik"
+              android:textAlignment="center"
+              android:textAppearance="?android:attr/textAppearanceLarge"
+              android:textStyle="bold" />
+        
+        
+            
+             <TextView
+          android:id="@+id/textView2"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:gravity="left|right|center_vertical"
+          android:paddingLeft="12dp"
+          android:paddingTop="25dp"
+          android:scrollHorizontally="false"
+          android:text=          
+"Untuk pembuatan E-KTP harus Melengkapi syarat-syarat berikut :\n\n
+1.	Warga Negara Indonesia\n\n
+2.	Berusia 17 tahun atau lebih.\n\n
+3.	Menunjukan surat pengantar.\n\n
+4.	Mengisi formulir F1.01  (bagi penduduk yang belum pernah mengisi/belum ada data di sistem informasi administrasi kependudukan) ditanda tangani oleh kepala desa/kelurahan.\n\n
+5.	Foto copy Kartu Keluarga.\n
+"
+          android:textColor="#000000"
+          android:textSize="17sp"
+          android:textStyle="normal"
+          android:typeface="serif"
+          android:paddingBottom="15dp" />
+          
+             </LinearLayout>
+        
+    
+</ScrollView>
+</RelativeLayout>

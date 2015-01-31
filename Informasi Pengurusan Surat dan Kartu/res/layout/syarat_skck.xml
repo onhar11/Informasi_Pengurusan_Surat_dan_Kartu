@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fcfcf0"
+    tools:context="com.KAMIBEREMPAT.pengurusansuratdankartu.SyaratSKCK" >
+
+     <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+        
+        
+        <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_weight="0.13"
+              android:gravity="center"
+              android:paddingTop="25dp"
+              android:text="Syarat Surat Keterangan Catatan Kepolisian"
+              android:textAlignment="center"
+              android:textAppearance="?android:attr/textAppearanceLarge"
+              android:textStyle="bold" />
+        
+        
+            
+             <TextView
+          android:id="@+id/textView2"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:gravity="left|right|center_vertical"
+          android:paddingLeft="12dp"
+          android:paddingTop="25dp"
+          android:scrollHorizontally="false"
+          android:text=          
+"Untuk pembuatan SKCK harus Melengkapi syarat-syarat berikut :\n\n\n
+1.Membawa Surat Pengantar dari Kantor Kelurahan tempat domisili pemohon.\n\n
+2.Membawa fotocopy KTP/SIM sesuai dengan domisili yang tertera di Surat Pengantar dari Kantor Kelurahan.\n\n
+3.Membawa fotocopy Kartu Keluarga.\n\n
+4.Membawa fotocopy Akta Kelahiran/Kenal Lahir.\n\n
+5.Membawa Pas Foto terbaru dan berwarna ukuran 4×6 sebanyak 6 lembar.\n\n
+6.Mengisi Formulir Daftar Riwayat Hidup yang telah disediakan di kantor Polisi dengan jelas dan benar.\n\n
+7.Pengambilan Sidik Jari oleh petugas.\n\n\n
+Untuk Memperpanjang masa berlaku SKCK harus melengkapi syarat-syarat berikut:\n\n
+1.Membawa lembar SKCK lama yang asli/legalisir (Maksimal telah habis masanya selama 1 Tahun)\n\n
+2.Membawa fotocopy KTP/SIM.\n\n
+3.Membawa fotocopy Kartu Keluarga.\n\n
+4.Membawa fotocopy Akta Kelahiran/Kenal Lahir.\n\n
+5.Membawa Pas Foto terbaru yang berwarna ukuran 4×6 sebanyak 3 lembar.\n\n
+6.Mengisi formulir perpanjangan SKCK yang disediakan di kantor Polisi.\n\n
+
+
+"
+          android:textColor="#000000"
+          android:textSize="17sp"
+          android:textStyle="normal"
+          android:typeface="serif" 
+          android:paddingBottom="15dp"/>
+          
+             </LinearLayout>
+        
+    
+</ScrollView>
+
+</RelativeLayout>

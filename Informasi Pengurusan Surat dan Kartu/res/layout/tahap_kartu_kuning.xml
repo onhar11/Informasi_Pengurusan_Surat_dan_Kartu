@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.KAMIBEREMPAT.pengurusansuratdankartu.TahapKartuKuning" >
+
+    
+   <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+        
+        
+        <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_weight="0.13"
+              android:gravity="center"
+              android:paddingTop="18dp"
+              android:text="Tahapan Pembuatan Kartu Kuning"
+              android:textAlignment="center"
+              android:textAppearance="?android:attr/textAppearanceLarge"
+              android:textStyle="bold" />
+        
+        
+            
+             <TextView
+          android:id="@+id/textView2"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:gravity="left|right|center_vertical"
+          android:paddingLeft="12dp"
+          android:paddingTop="25dp"
+          android:scrollHorizontally="false"
+          android:text=          
+"1.Anda harus datang sendiri ke disnakertrans setempat(tidak bisa diwakilkan)\n\n
+2.Serahkan berkas-berkasnya ke bagian pendaftaran\n\n
+3.Kita akan diberi sebuah form isian yang berisi data diri anda, isi form tersebut lalu kembalikan ke petugas (jangan lupa bawa alat tulis buat mengisi form tersebut). Jika sudah tunggu beberapa saat, hingga kartu jadi.\n\n
+4.Jangan lupa dicek dulu dengan seksama dan pastikan tidak ada data diri anda yang keliru.\n\n
+"
+          android:textColor="#000000"
+          android:textSize="17sp"
+          android:textStyle="normal"
+          android:typeface="serif"
+          android:paddingBottom="15dp" />
+          
+             </LinearLayout>
+        
+    </ScrollView>
+
+</RelativeLayout>

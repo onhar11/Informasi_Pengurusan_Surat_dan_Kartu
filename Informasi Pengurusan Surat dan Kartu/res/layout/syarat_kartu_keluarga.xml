@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fcfcf0"
+    tools:context="com.KAMIBEREMPAT.pengurusansuratdankartu.SyaratKartuKeluarga" >
+     
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+        
+        
+        <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_weight="0.13"
+              android:gravity="center"
+              android:paddingTop="25dp"
+              android:text="Syarat Pembuatan Kartu Keluarga"
+              android:textAlignment="center"
+              android:textAppearance="?android:attr/textAppearanceLarge"
+              android:textStyle="bold" />
+        
+        
+            
+             <TextView
+          android:id="@+id/textView2"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:gravity="left|right|center_vertical"
+          android:paddingLeft="12dp"
+          android:paddingTop="25dp"
+          android:scrollHorizontally="false"
+          android:text=          
+"Untuk pembuatan Kartu Keluarga harus Melengkapi syarat-syarat berikut :\n\n\n
+1.	Surat Pengantar dari Pengurus Rukun Tetangga (RT) dan/atau Rukun Warga (RW)\n\n
+2.	Kartu Keluarga Lama.\n\n
+3.	Surat Nikah atau Akta Cerai bagi yang membuat KK karena perkawinan / perceraian.\n\n
+4.	Surat Keterangan Lahir / Akta Kelahiran.\n\n
+5.	Surat Pengangkatan Anak.\n\n
+6.	Surat Keterangan Pendaftaran Penduduk Tetap bagi WNA.\n\n
+7.	Surat Keterangan Pelaporan Pendatang Baru (SKPPB) bagi pendatang dari luar wilayahnya.\n\n
+8.	Surat Keterangan Pindah bagi penduduk yang pindah antar kelurahan dalam wilayahnya.\n\n
+9.	SKBRI Saat ini karena masalah Birokrasi di Kelurahan masih diminta, walau undang-undang sudah dihapus.\n
+
+"
+          android:textColor="#000000"
+          android:textSize="17sp"
+          android:textStyle="normal"
+          android:typeface="serif"
+          android:paddingBottom="15dp" />
+          
+             </LinearLayout>
+        
+    
+</ScrollView>
+
+
+</RelativeLayout>
+
+

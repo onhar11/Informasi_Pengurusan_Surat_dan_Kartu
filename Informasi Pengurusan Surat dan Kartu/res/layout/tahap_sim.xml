@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fcfcf0"
+    tools:context="com.KAMIBEREMPAT.pengurusansuratdankartu.TahapSim" >
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+        
+        
+        <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_weight="0.13"
+              android:gravity="center"
+              android:paddingTop="25dp"
+              android:text="Tahapan Pembuatan Surat Izin Mengemudi"
+              android:textAlignment="center"
+              android:textAppearance="?android:attr/textAppearanceLarge"
+              android:textStyle="bold" />
+        
+        
+            
+             <TextView
+          android:id="@+id/textView2"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:gravity="left|right|center_vertical"
+          android:paddingLeft="12dp"
+          android:paddingTop="25dp"
+          android:scrollHorizontally="false"
+          android:text=          
+"1.	Mempersiapkan terlebih dahulu fotocopy KTP sebanyak lebih kurang 4 buah, serta alat tulis untuk mengikuti test tertulis. Biasanya (bocoran) mengenai test tertulis ini sudah banyak tersedia di Internet. Supaya lebih siap, sebaiknya kita mempelajari terlebih dahulu (bocoran) itu.\n\n
+2.	Mendatangi polres setempat ( sesuai domisili KTP) dan menuju ke klinik untuk test kesehatan (Asumsi kita belum test kesehatan.). Setelah mendapat hasil medis tersebut, kita langsung saja menuju tempat pembuatan SIM C tersebut. Nah jika ada oknum oknum yang menawarkan jasa pengurusan cepat, abaikan saja dengan sopan.\n\n
+3.	Kita membeli formulir pembuatan SIM dengan biaya Rp. 100.000 dan asuransi sebesar Rp. 30.000 .Selanjutnya kita mengisi formulir itu dengan sebaik baiknya dan sesuai data kita. Selesai mengisi formulir, segera kumpulkan di loket pengumpulan data. Selanjutnya menunggu nama kita dipanggil.\n\n
+4.	Mempersiapkan alat alat tulis untuk mengikuti ujian teori atau ujian tertulis.\n\n
+5.	Setelah hasi ujian kita dikumpulkan, kita akan diminta menunggu hasil ujian sebentar. Jika gagal, jangan berkecil hati, akan ada ujian ulang. Jika lulus ujian, maka tahap selanjutnya adalah ujian praktek. Dan jika kita gagal ditahap ini, jangan berkecil hati dulu, akan ada ujian berikutnya minggu depan. Informasi ini akan langsung diberitahukan langsung setelah test berakhir.\n\n
+6.	Setelah lulus ujian prakter, selanjutnya kita akan diminta untuk menunggu panggilan pengisian data pribadi, tanda tangan dan foto. Lamanya watku pada saat ini tergantung dari banyak atau tidaknya yang lulus ujian praktek. Tapi biasanya tidak akan lama.
+"
+          android:textColor="#000000"
+          android:textSize="17sp"
+          android:textStyle="normal"
+          android:typeface="serif"
+          android:paddingBottom="15dp" />
+          
+             </LinearLayout>
+        
+    </ScrollView>
+
+</RelativeLayout>

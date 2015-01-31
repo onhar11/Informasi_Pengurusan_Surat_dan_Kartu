@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.KAMIBEREMPAT.pengurusansuratdankartu.Bpjs" >
+
+    <item
+        android:id="@+id/action_syaratbpjs"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_syaratbpjs"/>
+    <item
+        android:id="@+id/action_tahapbpjs"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_tahapbpjs"/>
+
+</menu>

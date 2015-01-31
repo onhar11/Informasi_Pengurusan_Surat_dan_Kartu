@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fcfcf0"
+    tools:context="com.KAMIBEREMPAT.pengurusansuratdankartu.TahapanSuratNikah" >
+<ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+        
+        
+        <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_weight="0.13"
+              android:gravity="center"
+              android:paddingTop="25dp"
+              android:text="Tahapan Pembuatan Surat Nikah"
+              android:textAlignment="center"
+              android:textAppearance="?android:attr/textAppearanceLarge"
+              android:textStyle="bold" />
+        
+        
+            
+             <TextView
+          android:id="@+id/textView2"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:gravity="left|right|center_vertical"
+          android:paddingLeft="12dp"
+          android:paddingTop="25dp"
+          android:scrollHorizontally="false"
+          android:text=          
+"Masing-masing pengantin harus mengurus surat nikah dengan proses sebagai berikut:\n\n\n
+1.Menuju RT dan RW setempat untuk mengurus surat pengantar (dokumen: fotokopi KTP 2 lembar)\n\n
+2.Setelah mendapat surat pengantar, CPW dan CPP mengurus surat N1, N2, dan N4, dan surat keterangan belum menikah ke kelurahan tempat tinggal masing-masing (dokumen: pasfoto 3×4 = 2 lembar, fotokopi KTP CPW dan CPP 2 lembar, fotokopi KK CPP dan CPW 2 lembar, surat pengantar RT/RW). Untuk dokumentasi sebaiknya fotokopi surat N1, N2, N4, dan surat keterangan belum menikah.\n\n
+3.Surat N1, N2 dan N4 kemudian dibawa ke KUA kecamatan masing-masing CPP dan CPW untuk mengurus surat rekomendasi nikah. Jika CPP atau CPW tidak melangsungkan pernikahan di KUA domisili maka perlu mengurus surat numpang nikah.\n\n
+4.Jika perlu mengurus surat numpang nikah, maka surat rekomendasi dari KUA masing-masing CPP dan CPW setempat dibawa ke KUA kecamatan tempat Anda menikah. Di situ Anda akan melakukan pendaftaran pernikahan, diberi tahu ketersediaan penghulu yang akan menikahkan, serta diberi pembekalan tentang pernikahan. (dokumen: surat rekomendasi nikah dari KUA domisili, pasfoto 2×3 = 4 lembar, dan surat-surat lain dari KUA setempat).\n\n
+5.Setelah bertemu dengan penghulu yang akan menikahkan Anda, jangan lupa meminta nomor telepon dan alamat rumah penghulu tersebut untuk penjemputan. Hal ini dilakukan sebagai antisipasi agar pernikahan Anda berjalan lancar.\n\n
+6.Total pengurusan biaya surat nikah dari keluarahan sampai KUA sekitar kurang lebih Rp. 200 ribu di luar biaya penghulu. Untuk biaya penghulu biasanya disampaikan langsung oleh penghulu masing-masing. Jumlah tersebut sebaiknya dibayar separuhnya sebelum nikah lalu dibayar sisanya usai akad nikahnya. Biaya penghulu ini jumlahnya bervariasi mulai dari Rp 200 ribu sampai Rp 1,5 juta.\n\n
+7.Sekitar satu minggu atau 3 hari sebelum waktu akad nikah, tak ada salahnya menghubungi penghulu untuk mengingatkan.\n\n
+"
+          android:textColor="#000000"
+          android:textSize="17sp"
+          android:textStyle="normal"
+          android:typeface="serif"
+          android:paddingBottom="15dp" />
+          
+             </LinearLayout>
+        
+    </ScrollView>
+
+
+</RelativeLayout>

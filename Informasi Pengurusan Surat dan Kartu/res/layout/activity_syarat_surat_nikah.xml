@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fcfcf0"
+    tools:context="com.KAMIBEREMPAT.pengurusansuratdankartu.SyaratSuratNikah" >
+    
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+        
+        
+        <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_weight="0.13"
+              android:gravity="center"
+              android:paddingTop="25dp"
+              android:text="Syarat Pembuatan Surat Nikah"
+              android:textAlignment="center"
+              android:textAppearance="?android:attr/textAppearanceLarge"
+              android:textStyle="bold" />
+        
+        
+            
+             <TextView
+          android:id="@+id/textView2"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:gravity="left|right|center_vertical"
+          android:paddingLeft="12dp"
+          android:paddingTop="25dp"
+          android:scrollHorizontally="false"
+          android:text=          
+"Untuk membuat Surat Nikah harus melengkapi syarat-syarat berikut:\n\n
+1.Foto Copy KTP, siapkan sekitar 4 lembar untuk masing-masing pengantin.\n\n
+2.Foto Copy Kartu Keluarga, siapkan sekitar 4 lembar untuk masing-masing pengantin.\n\n
+3.Pas Photo Calon Pengantin, berukuran 2×3 masing-masing 4 lembar dan 3×4 masing-masing sekitar 4 lembar. Jika menikah beda pulau, siapkan paling tidak 10 lembar.\n\n
+4.Bagi yang berstatus duda/janda, lampirkan surat Talak/Akta Cerai dari Pengadilan Agama/Negeri.\n\n
+5.Surat dispensasi dari Pengadilan Agama khusus untuk calon pengantin yang berusia kurang dari 19 tahun (laki-laki), kurang dari 16 tahun (perempuan), atau laki-laki yang akan berpoligami.\n\n
+6.Bagi anggota TNI/POLRI dan Sipil TNI/POLRI harus ada Izin Kawin dari Pejabat Atasan/Komandan.
+          "
+          android:textColor="#000000"
+          android:textSize="17sp"
+          android:textStyle="normal"
+          android:typeface="serif" 
+          android:paddingBottom="15dp"/>
+          
+             </LinearLayout>
+        
+    </ScrollView>
+
+</RelativeLayout>

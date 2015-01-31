@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fcfcf0"
+    tools:context="com.KAMIBEREMPAT.pengurusansuratdankartu.SyaratWarisan" >
+
+   <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+        
+        
+        <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_weight="0.13"
+              android:gravity="center"
+              android:paddingTop="25dp"
+              android:text="Syarat Surat Tanda Hak Waris"
+              android:textAlignment="center"
+              android:textAppearance="?android:attr/textAppearanceLarge"
+              android:textStyle="bold" />
+        
+        
+            
+             <TextView
+          android:id="@+id/textView2"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:gravity="left|right|center_vertical"
+          android:paddingLeft="12dp"
+          android:paddingTop="25dp"
+          android:scrollHorizontally="false"
+          android:text=          
+"Untuk pembuatan Surat Tanda Hak Waris harus Melengkapi syarat-syarat berikut :\n
+
+1. Surat Permohonan\n\n
+2. Akta/ bukti Kematian\n\n
+3. Akta Perkawinan\n\n
+4. Identitas para ahliwaris dan pemohon (KTP)\n\n
+5. Kartu Keluarga\n\n
+6. Akta Kelahiran Anak\n\n
+7. Surat Ganti Nama (apabila ada)\n\n
+8. Surat Keterangan Wasiat yang dikeluarkan oleh Direktorat Jenderal Administrasi Hukum Umum, dan, Surat Kuasa.\n\n\n
+catatan :\n\n     Photo copy Surat- surat tersebut di atas dilegalisir/disahkan oleh Notaris.
+
+"
+          android:textColor="#000000"
+          android:textSize="17sp"
+          android:textStyle="normal"
+          android:typeface="serif"
+          android:paddingBottom="15dp" />
+          
+             </LinearLayout>
+        
+    
+</ScrollView>
+</RelativeLayout>

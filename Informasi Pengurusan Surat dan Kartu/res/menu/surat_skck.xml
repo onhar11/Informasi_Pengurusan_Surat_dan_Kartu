@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.KAMIBEREMPAT.pengurusansurat.SuratSKCK" >
+
+    <item
+        android:id="@+id/action_syaratskck"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_syaratskck"/>
+    
+     <item
+        android:id="@+id/action_tahapskck"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_tahapskck"/>
+
+
+</menu>

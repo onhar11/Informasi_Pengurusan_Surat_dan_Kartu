@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fcfcf0"
+    tools:context="com.KAMIBEREMPAT.pengurusansuratdankartu.TahapEktp" >
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+        
+        
+        <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_weight="0.13"
+              android:gravity="center"
+              android:paddingTop="25dp"
+              android:text="Tahapan Pembuatan Kartu Tanda Penduduk Elektronik"
+              android:textAlignment="center"
+              android:textAppearance="?android:attr/textAppearanceLarge"
+              android:textStyle="bold" />
+        
+        
+            
+             <TextView
+          android:id="@+id/textView2"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:gravity="left|right|center_vertical"
+          android:paddingLeft="12dp"
+          android:paddingTop="25dp"
+          android:scrollHorizontally="false"
+          android:text=          
+"1.Penduduk wajib KTP datang dengan membawa surat panggilan  mendatangi tempat pelayanan.\n\n
+2.Petugas melakukan verifikasi data penduduk yang ada pada database.\n\n
+3.Perugas Operator melakukan  pengambilan dan perekaman PAS PHOTO.\n\n
+4.Penduduk melakukan perekaman TANDA TANGAN.\n\n
+5.Penduduk melakukan perekaman seluruh SIDIK JARI TANGAN, dimulai  dari tangan kanan kemudian tangan kiri.\n\n
+6.Petugas membutuhkan TTD dan Stempel pada surat panggilan yang sekaligus tanda bukti bahwa penduduk telah melakukan perekaman pas photo, ttd tangan  dan sidik jari.\n\n
+7.Penduduk pulang ke rumah masing-masing dan menunggu panggilan berikutnya untuk mengambil E-KTP’\n\n
+
+"
+          android:textColor="#000000"
+          android:textSize="17sp"
+          android:textStyle="normal"
+          android:typeface="serif"
+          android:paddingBottom="15dp" />
+          
+             </LinearLayout>
+        
+    </ScrollView>
+
+</RelativeLayout>
